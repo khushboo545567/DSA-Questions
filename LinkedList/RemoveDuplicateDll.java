@@ -53,6 +53,5 @@ public class RemoveDuplicateDll{
         Node head = Arr_dll(arr);
         Node ans = RemoveDup(head);
         traverse(ans);
-
     }
 }

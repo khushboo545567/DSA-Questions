@@ -74,6 +74,10 @@ public class RotateLL{
         return temp;
     }
     private static Node Rotate(Node head,int k){
+        if(head == null || head.next == null || k==0){
+            return head;
+                }
+            
         int len =1;
         Node tail = head;
         while(tail.next != null){

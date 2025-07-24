@@ -1,10 +1,11 @@
 // 1. FIRST FIND THE MAXSUM FOR = MAXlINEAR (LINEAR ARR)
 // 2. TOTAL SUM - MIN SUM = MAXCURCULAR (FOR CIRCULAR ARR)
 // 3. TAKE MAX OF 1 AND 2 BECAUSE WE DONT KNOW THE LINEAR WOULD GIVE THE MAX RESULT OR CIRCULAR WILL 
+// KADANES ALGORITHM = calculate the max or min sum of the subarray and always reset with 0 
 
 public class MaxCircularSum{
     public static void main(String[]args){
-        int []arr = {8,-8,9,-9,10,-11,12};
+        int []arr = {10, -3, -4, 7, 6, 5, -4, -1};
         int n = arr.length;
         int maxSum = Integer.MIN_VALUE;
         int currmaxSum = 0;

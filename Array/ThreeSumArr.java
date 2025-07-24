@@ -55,7 +55,7 @@ public class ThreeSumArr{
     // TC = n2 , SC = no. of triplates and the temp list 0(1);
     
     public static void main(String[]args){
-       int[]arr = {-1,0,1,2,-1,-4 };
+       int[]arr = {-1,0,1,2,-1,-4,0};
         HashSet <List<Integer>> set = new HashSet<>();
         int n = arr.length;
 

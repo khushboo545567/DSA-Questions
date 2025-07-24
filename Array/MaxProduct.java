@@ -1,6 +1,6 @@
 public class MaxProduct{
     public static void main(String[]args){
-        int [] arr= {-2,6,-3,-10,0,2};
+        int [] arr= {-2,6,-3,-10,2};
         int MaxProduct = 0;
         int sufixProd = 1;
         int prefixPro = 1;
